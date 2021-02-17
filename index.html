@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./slike/Group 1934.png" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -22,11 +27,13 @@
   <body>
     <div class="section">
       <div class="section1">
-        <img class="logoslike1" src="./slike/Group 1934.png" />
-        <img class="logoslike2" src="./slike/Group 1935.png" />
+        <img class="logo1" src="./slike/Group 1934.png" />
+        <img class="logo2" src="./slike/Group 1935.png" />
 
-        <div class="akademijaopis">
-          <h1><b>Startup akademija Elektrotehničkog fakulteta</b></h1>
+        <div class="description">
+          <p class="descriptiontitle">
+            Startup akademija Elektrotehničkog fakulteta
+          </p>
           <p>
             Cilj startup Akademije je da našim studentima damo i dodatnu
             vrijednost, a to je umijeće pokretanja sopstvenog biznisa i
@@ -47,12 +54,12 @@
             <b>#do biznisa iz klupa#</b>
           </p>
         </div>
-        <div class="prijava">
+        <div class="signup">
           <button class="hbtn hb-fill-bottom-bg" type="submit" value="prijava">
-            Prijava
+            PRIJAVA
           </button>
         </div>
-        <div class="divkraj">
+        <div class="enddiv">
           <h5>Podržano od strane:</h5>
         </div>
         <div class="divamplogo">
@@ -60,9 +67,9 @@
         </div>
       </div>
       <div class="section2">
-        <div class="naslov2"><h1>Naši mentori</h1></div>
+        <div class="title2"><h1>Naši mentori</h1></div>
 
-        <div class="mentori">
+        <div class="section2-1">
           <div class="mentor" data-toggle="modal" data-target="#myModal">
             <a href="#"><img src="./slike/Group 1956.png" /></a>
             <h5><b>Nenad Novović</b></h5>
@@ -95,7 +102,7 @@
           </div>
         </div>
         <!--Modal-->
-        <div class="modal fade" id="myModal">
+        <div class="modal fade" id="myModal" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -105,13 +112,13 @@
                   data-dismiss="modal"
                   aria-label="Close"
                 >
-                  <span aria-hidden="true">X</span>
+                  <span aria-hidden="true">&times;</span>
                 </button>
                 <img src="./slike/Group 1956.png" />
-                <h5 style="text-align: center" class="modal-title">
+                <h5 class="modal-title">
                   <b>Nenad Novović</b>
                 </h5>
-                <p style="text-align: center">Direktor kompanije Amplitudo</p>
+                <p>Direktor kompanije Amplitudo</p>
               </div>
               <div class="modal-body">
                 <p>
