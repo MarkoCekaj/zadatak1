@@ -24,13 +24,13 @@ body {
 }
 
 .logoslike1 {
-  margin: 122px 0 0 141px;
+  margin: 122px 30px 0 141px;
   left: 141px;
   width: 248px;
   height: 158px;
 }
 .logoslike2 {
-  margin: 122px 0 0 30px;
+  margin: 122px 0 0 0;
   width: 248px;
   height: 158px;
 }
@@ -43,7 +43,7 @@ body {
   opacity: 100%;
   text-align: left;
 
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 28px;
   font-weight: bold;
 }
@@ -127,12 +127,12 @@ body {
   align-items: center;
   width: 170px;
   height: 35px;
-  margin: 105px 0 56px 405px;
+  margin: 105px 458px 56px 405px;
   text-align: center;
 }
 .naslov2 h1 {
   font-family: "Roboto", sans-serif;
-  font-weight: bolder;
+  font-weight: 900;
 
   font-size: 28px;
   color: #283e51;
@@ -150,7 +150,7 @@ body {
   height: 240px;
 }
 .mentor h5 {
-  font-size: 16px;
+  font-size: 15px;
 
   text-align: center;
   color: #283e51;
@@ -162,13 +162,13 @@ body {
   font-size: 15px;
 }
 .mentor:nth-child(1) {
-  margin: 56px 30px 149px 88px;
+  margin: 0 30px 149px 88px;
 }
 .mentor:nth-child(2) {
-  margin: 56px 0 149px 0;
+  margin: 0 30px 149px 0;
 }
 .mentor:nth-child(3) {
-  margin: 56px 0 149px 0;
+  margin: 0 141px 149px 0;
 }
 .mentor:nth-child(4) {
   margin: 0 30px 239px 88px;
@@ -177,7 +177,7 @@ body {
   margin: 0 30px 239px 0;
 }
 .mentor:nth-child(6) {
-  margin: 0 0 239px 0;
+  margin: 0 141px 239px 0;
 }
 
 #myModal .modal-dialog {
@@ -186,6 +186,8 @@ body {
   transform: translate(0, -50%);
   top: 50%;
   margin: 0 auto;
+  width: 586px;
+  height: 620px;
 }
 .modal-body {
   font-family: "Roboto", sans-serif;
@@ -198,9 +200,27 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  height: 248px;
+  width: 248px;
+  margin: 22px 164px 10px 174px;
 }
-
+.modal-header h5 {
+  height: 20px;
+  width: 114px;
+  font-size: 15px;
+  margin: 0 231px 10px 241px;
+}
+.modal-header p {
+  height: 19px;
+  width: 206px;
+  margin: 0 185px 0px 195px;
+}
+.modal-body p {
+  font-size: 15.5px;
+  width: 517px;
+  height: 210px;
+  margin: 0 40px 0 35px;
+}
 .modal-overlay {
   display: none;
   justify-content: center;
