@@ -18,7 +18,7 @@ body {
 }
 .section2 {
   width: 1033px;
-  height: 1080px;
+
   background: #f5f6fd 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -36,7 +36,7 @@ body {
 }
 .akademijaopis h1 {
   margin: 76px 0 0 141px;
-  height: 28px;
+  height: 35px;
   width: 609px;
   font-family: "Roboto", sans-serif;
   color: #283e51;
@@ -44,11 +44,11 @@ body {
   text-align: left;
 
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
 }
 .akademijaopis p {
-  margin: 51px 81px 0 141px;
+  margin: 51px 81px 38px 141px;
   height: 665px;
   height: 356px;
   line-height: 2;
@@ -56,11 +56,11 @@ body {
   font-weight: bolder;
   color: #283e51;
   opacity: 80%;
-  font-size: 15px;
+  font-size: 14px;
   text-align: left;
 }
 .prijava {
-  margin: 38px 0 46px 141px;
+  margin: 0 498px 46px 141px;
   font-size: 18px;
   width: 248px;
   height: 65px;
@@ -111,7 +111,7 @@ body {
 .divkraj h5 {
   width: 169px;
   height: 23px;
-  margin: 46px 0 10.03px 141px;
+  margin: 46px 577px 10.03px 141px;
   font-size: 18px;
   text-align: left;
   color: #bababa;
@@ -120,7 +120,7 @@ body {
 .divamplogo img {
   width: 179px;
   height: 44.04px;
-  margin: 0 0 55.93px 141px;
+  margin: 0 567px 55.93px 141px;
 }
 /*sekcija 2*/
 .naslov2 {
@@ -149,10 +149,17 @@ body {
   width: 240px;
   height: 240px;
 }
-.mentor h5,
-p {
+.mentor h5 {
+  font-size: 16px;
+
   text-align: center;
   color: #283e51;
+}
+.mentor p {
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 15px;
 }
 .mentor:nth-child(1) {
   margin: 56px 30px 149px 88px;
@@ -172,11 +179,7 @@ p {
 .mentor:nth-child(6) {
   margin: 0 0 239px 0;
 }
-.mentor p {
-  font-weight: bolder;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-}
+
 #myModal .modal-dialog {
   -webkit-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
