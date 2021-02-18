@@ -218,10 +218,9 @@ div.modal-body {
 }
 div.modal-header {
   border-bottom: none;
-  padding: 0;
 }
 .modal-header .close {
-  margin: 21.31px 0 0 0;
+  margin: 30.31px 0 0 0;
   color: #003166;
   font-size: 30px;
   opacity: 1;
