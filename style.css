@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   color: #283e51;
   height: 1080px;
@@ -6,7 +12,7 @@ body {
 }
 .section {
   display: flex;
-
+  font-family: "roboto ", sans-serif;
   justify-content: flex-start;
 }
 .section1 {
@@ -34,7 +40,7 @@ body {
   height: 158px;
 }
 .description .descriptiontitle {
-  margin: 76px 0 0 141px;
+  margin: 76px 0 51px 141px;
   height: 35px;
   width: 609px;
   font-family: "Roboto", sans-serif;
@@ -43,14 +49,13 @@ body {
   text-align: left;
   line-height: 48px;
   font-size: 28px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 .description p {
-  margin: 51px 81px 38px 141px;
+  margin: 0 81px 38px 141px;
   height: 665px;
   height: 356px;
   line-height: 25px;
-  font-family: "Roboto", sans-serif;
 
   color: #283e51;
   opacity: 100%;
@@ -148,13 +153,12 @@ body {
   height: 240px;
 }
 .mentor h5 {
-  font-size: 15px;
+  font-size: 16px;
   opacity: 100%;
   text-align: center;
   color: #283e51;
 }
 .mentor p {
-  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 15px;
 }
@@ -187,18 +191,21 @@ body {
   top: 50%;
   margin: 0 auto;
 }
+div.modal-body {
+  padding: 0 0 0 0;
+  position: relative;
+}
 .modal-body p {
-  font-family: "Roboto", sans-serif;
   color: #283e51;
-  font-size: 15px;
   text-align: center;
-
+  letter-spacing: 0px;
   font-size: 15px;
   width: 517px;
   height: 210px;
   margin: 15px 34px 27px 35px;
   line-height: 25px;
-  padding: 0;
+  border-top: 1px solid gainsboro;
+  padding-top: 15px;
 }
 .modal-header img {
   display: block;
@@ -206,7 +213,12 @@ body {
   margin-right: auto;
   height: 248px;
   width: 248px;
-  margin: 22px 164px 10px 174px;
+  margin: 30px 164px 10px 174px;
+  padding: 0;
+}
+div.modal-header {
+  border-bottom: none;
+  padding: 0;
 }
 .modal-header .close {
   margin: 21.31px 0 0 0;
