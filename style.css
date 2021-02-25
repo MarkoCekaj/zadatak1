@@ -414,20 +414,31 @@ div.modal-header {
   top: 50%;
   margin: 0 auto;
 }
-@media screen and (max-width: 480px) {
-  .logo1 {
-    margin: 0 50px 0 0;
-
-    width: 124px;
-    height: 79px;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    max-width: 480px;
   }
+  .section1 {
+    width: 240px;
+  }
+  .section2 {
+    width: 240px;
+    background-color: #ffffff;
+  }
+  .logo1 {
+    margin: 0 0 0 0;
+
+    width: 100px;
+    height: 50px;
+  }
+
   .logo2 {
     margin: 0 0 0 0;
-    width: 124px;
-    height: 79px;
+    width: 100px;
+    height: 50px;
   }
   .description .descriptiontitle {
-    margin: 10px 0 0 10px;
+    margin: 10px 0 20px 10px;
     height: 35px;
     width: 200px;
     text-align: left;
@@ -436,7 +447,7 @@ div.modal-header {
     color: #283e51;
     letter-spacing: 0px;
     line-height: 1;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 900;
   }
   .description p {
@@ -547,155 +558,5 @@ div.modal-header {
   }
   #myModal .modal-content {
     max-width: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-  body {
-    height: 100vh;
-    width: 100%;
-  }
-  .section {
-    font-family: "roboto ", sans-serif;
-  }
-  .section1 {
-    height: 100vh;
-    width: 50%;
-    background: #ffffff;
-  }
-  .section2 {
-    width: 50%;
-    height: 100vh;
-    background-color: #ffffff;
-  }
-  .logo1 {
-    margin: 120px 0 0 200px;
-    width: 230px;
-    height: 120px;
-  }
-  .logo2 {
-    margin: -120px 0 0 0;
-    width: 230px;
-    height: 120px;
-  }
-  .description .descriptiontitle {
-    margin: 10px 0 50px 50px;
-    height: 35px;
-    width: 400px;
-    text-align: left;
-    text-overflow: initial;
-    font-family: "Roboto", sans-serif;
-    color: #283e51;
-    letter-spacing: 0px;
-    line-height: 1;
-    font-size: 20px;
-    font-weight: 900;
-  }
-  .description p {
-    margin: 0 0 0 50px;
-    width: 334px;
-    height: 100px;
-    line-height: 20px;
-    color: #283e51;
-    opacity: 100%;
-    font-size: 15px;
-    text-align: left;
-  }
-  .signup {
-    margin: 450px 0 0 50px;
-    font-size: 18px;
-    width: 248px;
-    height: 65px;
-  }
-  .hbtn {
-    border: none;
-    border-radius: 5px;
-    width: 100px;
-    height: 50px;
-    position: relative;
-    box-sizing: border-box;
-    display: inline-block;
-    overflow: hidden;
-
-    text-align: center;
-
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    white-space: nowrap;
-    background-color: #003266;
-    z-index: 0;
-  }
-  .enddiv h5 {
-    width: 169px;
-    height: 23px;
-    margin: 20px 0 0 50px;
-    font-size: 12px;
-    text-align: left;
-    color: #bababa;
-    opacity: 100%;
-  }
-  .divamplogo img {
-    width: 90px;
-    height: 22.02px;
-    margin: 0 0 55.93px 50px;
-  }
-  .title2 {
-    align-items: center;
-    width: 300px;
-    margin: 0 70px 40px 0;
-  }
-  .title2 h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    margin: 120px 0 0 150px;
-    font-size: 25px;
-    color: #283e51;
-    text-align: left;
-  }
-  .section2-1 {
-    height: auto;
-    display: inline;
-    flex-wrap: wrap;
-  }
-  .mentor {
-    width: 60px;
-    height: 60px;
-  }
-  .mentor h5 {
-    font-size: 20px;
-    padding-left: 150px;
-    width: 350px;
-    opacity: 100%;
-    text-align: left;
-    color: #283e51;
-  }
-  .mentor p {
-    text-align: center;
-    font-size: 15px;
-    width: 180px;
-    padding-top: 20px;
-    margin-left: 130px;
-  }
-  .mentor:nth-child(1) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(2) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(3) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(4) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(5) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(6) {
-    margin: 0 0 250px 0;
-  }
-  .mentor img {
-    height: 170px;
-    width: 170px;
-    margin-left: 130px;
   }
 }
