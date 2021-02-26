@@ -428,7 +428,7 @@ div.modal-header {
   }
   .section1 {
     height: 100vh;
-    width: 50%;
+    width: 100%;
     background: #ffffff;
     opacity: 1;
   }
@@ -439,51 +439,51 @@ div.modal-header {
     opacity: 1;
   }
   .logo1 {
-    margin: 0 0 0 0;
+    margin: 0 50px 0 0;
 
-    width: 240px;
-    height: 120px;
+    width: 360px;
+    height: 240px;
   }
 
   .logo2 {
     margin: 0 0 0 0;
-    width: 240px;
-    height: 120px;
+    width: 360px;
+    height: 240px;
   }
   .description .descriptiontitle {
-    margin: 50px 0 20px 10px;
+    margin: 50px 0 20px 30px;
     height: 35px;
-    width: 450px;
+    width: 750px;
     text-align: left;
     text-overflow: initial;
     font-family: "Roboto", sans-serif;
     color: #283e51;
     letter-spacing: 0px;
     line-height: 1;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 900;
   }
   .description p {
     margin: 50px 0 0 10px;
-    width: 400px;
+    width: 700px;
     height: 100px;
     line-height: 1;
     color: #283e51;
     opacity: 100%;
-    font-size: 20px;
-    text-align: left;
+    font-size: 30px;
+    text-align: center;
   }
   .signup {
-    margin: 450px 0 0 10px;
+    margin: 650px 0 0 200px;
     font-size: 18px;
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
   }
   .hbtn {
     border: none;
     border-radius: 5px;
-    width: 150px;
-    height: 70px;
+    width: 300px;
+    height: 100px;
     position: relative;
     box-sizing: border-box;
     display: inline-block;
@@ -498,30 +498,30 @@ div.modal-header {
     z-index: 0;
   }
   .enddiv h5 {
-    width: 300px;
-    height: 23px;
-    margin: 20px 0 0 10px;
-    font-size: 20px;
+    width: 500px;
+    height: 43px;
+    margin: -60px 0 0 200px;
+    font-size: 30px;
     text-align: left;
     color: #bababa;
     opacity: 100%;
   }
   .divamplogo img {
-    width: 180px;
-    height: 44.02px;
-    margin: 0 0 55.93px 10px;
+    width: 300px;
+    height: 84.02px;
+    margin: 0 0 55.93px 200px;
   }
   .title2 {
     align-items: center;
-    width: 300px;
-    margin: 0 0 0 0;
+    width: 600px;
+    margin: 100px 0 50px 200px;
     text-align: left;
   }
   .title2 h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin: 0 0 0 100px;
-    font-size: 25px;
+    font-size: 35px;
     color: #283e51;
     text-align: left;
   }
@@ -530,12 +530,9 @@ div.modal-header {
     display: inline;
     flex-wrap: wrap;
   }
-  .mentor {
-    width: 60px;
-    height: 60px;
-  }
+
   .mentor h5 {
-    font-size: 17px;
+    font-size: 25px;
     padding-left: 60px;
 
     opacity: 100%;
@@ -544,93 +541,94 @@ div.modal-header {
   }
   .mentor p {
     text-align: center;
-    font-size: 14px;
+    font-size: 22px;
     width: 300px;
     padding-left: 50px;
     padding-right: 50px;
   }
   .mentor:nth-child(1) {
-    margin: 0 0 300px 70px;
+    margin: 0 0 100px 70px;
   }
   .mentor:nth-child(2) {
-    margin: 0 0 300px 70px;
+    margin: 0 0 100px 70px;
   }
   .mentor:nth-child(3) {
-    margin: 0 0 300px 70px;
+    margin: 0 0 100px 70px;
   }
   .mentor:nth-child(4) {
-    margin: 0 0 300px 70px;
+    margin: 0 0 100px 70px;
   }
   .mentor:nth-child(5) {
-    margin: 0 0 300px 70px;
+    margin: 0 0 100px 70px;
   }
   .mentor:nth-child(6) {
-    margin: 0 0 60px 70px;
+    margin: 0 0 100px 70px;
   }
   .mentor img {
-    height: 270px;
-    width: 270px;
+    height: 370px;
+    width: 370px;
   }
 }
 @media screen and (max-width: 768px) {
   body {
-    max-width: 768px;
+    max-width: 100%;
   }
   .section {
-    max-width: 768px;
+    max-width: 100%;
     display: flex;
     font-family: "roboto ", sans-serif;
+    flex-direction: column;
     justify-content: flex-start;
   }
   .section1 {
     height: 100vh;
-    width: 50%;
+    max-width: 100%;
     background: #ffffff;
     opacity: 1;
   }
   .section2 {
-    width: 50%;
+    max-width: 768px;
     height: 100vh;
     background-color: #ffffff;
     opacity: 1;
   }
   .logo1 {
-    margin: 0 0 0 0;
+    margin: 0 0 0 70px;
 
-    width: 170px;
-    height: 100px;
+    width: 240px;
+    height: 150px;
   }
 
   .logo2 {
-    margin: 0 0 0 0;
-    width: 170px;
-    height: 100px;
+    margin: -180px 0 0 300px;
+    width: 240px;
+    height: 150px;
   }
   .description .descriptiontitle {
-    margin: 10px 0 20px 10px;
+    margin: 10px 0 20px 30px;
     height: 35px;
-    width: 300px;
+    width: 630px;
     text-align: left;
     text-overflow: initial;
     font-family: "Roboto", sans-serif;
     color: #283e51;
     letter-spacing: 0px;
     line-height: 1;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 900;
   }
   .description p {
-    margin: 0 0 0 10px;
-    width: 300px;
+    margin: 0 0 0 80px;
+    width: 500px;
     height: 100px;
     line-height: 1;
     color: #283e51;
     opacity: 100%;
-    font-size: 20px;
-    text-align: left;
+    font-size: 25px;
+    text-align: center;
   }
   .signup {
-    margin: 650px 0 0 10px;
+    margin: 600px 0 0 250px;
     font-size: 18px;
     width: 300px;
     height: 100px;
@@ -656,27 +654,27 @@ div.modal-header {
   .enddiv h5 {
     width: 300px;
     height: 23px;
-    margin: 20px 0 0 10px;
+    margin: 2200px 0 0 200px;
     font-size: 20px;
     text-align: left;
     color: #bababa;
     opacity: 100%;
   }
-  .divamplogo img {
+  .divamplogo {
     width: 180px;
     height: 44.02px;
-    margin: 0 0 55.93px 10px;
+    margin: 0 0 0 190px;
   }
   .title2 {
     align-items: center;
-    width: 300px;
-    margin: 0 0 0 0;
+    width: 400px;
+    margin: 0 0 0;
     text-align: left;
   }
   .title2 h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    margin: 0 0 0 100px;
+    margin: 50px 0 0 250px;
     font-size: 25px;
     color: #283e51;
     text-align: left;
@@ -686,97 +684,85 @@ div.modal-header {
     display: inline;
     flex-wrap: wrap;
   }
-  .mentor {
-    width: 60px;
-    height: 60px;
+  .mentor img {
+    height: 210px;
+    width: 210px;
+    margin-left: 140px;
+    margin-bottom: -20px;
   }
   .mentor h5 {
-    font-size: 15px;
-    padding-left: 60px;
-
+    font-size: 25px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    width: 500px;
     opacity: 100%;
     text-align: left;
     color: #283e51;
   }
   .mentor p {
     text-align: center;
-    font-size: 12px;
-    width: 300px;
-    padding-left: 50px;
+    font-size: 20px;
+    width: 500px;
+    padding-left: 100px;
     padding-right: 50px;
-  }
-  .mentor:nth-child(1) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(2) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(3) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(4) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(5) {
-    margin: 0 0 250px 0;
-  }
-  .mentor:nth-child(6) {
-    margin: 0 0 50px 0;
-  }
-  .mentor img {
-    height: 240px;
-    width: 240px;
+    margin-bottom: 100px;
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
-    max-width: 480px;
+    max-width: 100%;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
   }
   .section1 {
-    width: 240px;
+    max-width: 100%;
   }
   .section2 {
-    width: 240px;
+    max-width: 100%;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto ", sans-serif;
   }
   .logo1 {
-    margin: 0 0 0 0;
+    margin: 0 0 0 50px;
 
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
   }
 
   .logo2 {
-    margin: 0 0 0 0;
-    width: 100px;
-    height: 50px;
+    margin: -120px 0 0 200px;
+    width: 150px;
+    height: 100px;
   }
   .description .descriptiontitle {
     margin: 10px 0 20px 10px;
     height: 35px;
-    width: 200px;
+    width: 390px;
     text-align: left;
     text-overflow: initial;
     font-family: "Roboto", sans-serif;
     color: #283e51;
     letter-spacing: 0px;
     line-height: 1;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 900;
   }
   .description p {
-    margin: 0 0 0 10px;
-    width: 200px;
+    margin: 0 0 0 50px;
+    width: 320px;
     height: 100px;
     line-height: 1;
     color: #283e51;
     opacity: 100%;
-    font-size: 13px;
-    text-align: left;
+    font-size: 17px;
   }
   .signup {
-    margin: 450px 0 0 10px;
+    margin: 400px 0 0 45px;
     font-size: 18px;
     width: 248px;
     height: 65px;
@@ -800,18 +786,19 @@ div.modal-header {
     z-index: 0;
   }
   .enddiv h5 {
-    width: 169px;
-    height: 23px;
-    margin: 20px 0 0 10px;
-    font-size: 12px;
+    width: 300px;
+    height: 50px;
+    margin: 2200px 0 0 70px;
+    font-size: 20px;
     text-align: left;
     color: #bababa;
     opacity: 100%;
   }
   .divamplogo img {
-    width: 90px;
-    height: 22.02px;
-    margin: 0 0 55.93px 10px;
+    width: 150px;
+    height: 50px;
+
+    margin-left: 100px;
   }
   .title2 {
     align-items: center;
@@ -822,8 +809,8 @@ div.modal-header {
   .title2 h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    margin: 0 0 0 0;
-    font-size: 15px;
+    margin: 0 0 0 160px;
+    font-size: 20px;
     color: #283e51;
     text-align: left;
   }
@@ -832,46 +819,22 @@ div.modal-header {
     display: inline;
     flex-wrap: wrap;
   }
-  .mentor {
-    width: 60px;
-    height: 60px;
+  .mentor img {
+    width: 240px;
+    height: 240px;
+    margin: 100px 0 0 0;
   }
   .mentor h5 {
-    font-size: 15px;
-    padding-left: 18px;
-
+    font-size: 20px;
+    padding-left: 50px;
+    width: 300px;
     opacity: 100%;
     text-align: left;
     color: #283e51;
   }
   .mentor p {
     text-align: center;
-    font-size: 12px;
-    width: 180px;
-  }
-  .mentor:nth-child(1) {
-    margin: 0 0 200px 0;
-  }
-  .mentor:nth-child(2) {
-    margin: 0 0 200px 0;
-  }
-  .mentor:nth-child(3) {
-    margin: 0 0 200px 0;
-  }
-  .mentor:nth-child(4) {
-    margin: 0 0 200px 0;
-  }
-  .mentor:nth-child(5) {
-    margin: 0 0 200px 0;
-  }
-  .mentor:nth-child(6) {
-    margin: 0 0 250px 0;
-  }
-  .mentor img {
-    height: 170px;
-    width: 170px;
-  }
-  #myModal .modal-content {
-    max-width: 100%;
+    font-size: 16px;
+    width: 350px;
   }
 }
